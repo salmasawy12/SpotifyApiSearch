@@ -49,7 +49,7 @@ class _homePageState extends State<homepage> {
              SizedBox(height: 50), 
              ElevatedButton(
               child: Text('Sign up',style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
-              style: ElevatedButton.styleFrom(backgroundColor:Color.fromARGB(255, 197, 100, 214) ),
+              style: ElevatedButton.styleFrom(backgroundColor:const Color.fromARGB(255, 219, 154, 231) ),
                 onPressed: () {
                   Navigator.push(
                     context,
