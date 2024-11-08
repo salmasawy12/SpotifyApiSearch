@@ -10,14 +10,13 @@ class SignUpPage extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Sign Up', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
-        backgroundColor: Color.fromARGB(255, 197, 100, 214),
-        
+        backgroundColor: Colors.green,
         
       ),
 
        bottomNavigationBar: BottomAppBar(
         height: 70,
-        color: const Color.fromARGB(255, 219, 154, 231),
+        color: Colors.green,
       ),
       body:Form(
       key: _formKey,
@@ -28,7 +27,7 @@ class SignUpPage extends StatelessWidget {
           Text('Email', 
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color:  Color.fromARGB(255, 197, 100, 214),
+            color:   Colors.green,
 
           )
           ),
@@ -45,7 +44,7 @@ class SignUpPage extends StatelessWidget {
            Text('Password', 
           style: TextStyle(
             fontWeight: FontWeight.bold,
-             color:  Color.fromARGB(255, 197, 100, 214),
+             color:  Colors.green,
 
           )
           
@@ -64,7 +63,7 @@ class SignUpPage extends StatelessWidget {
           Center(
             child: ElevatedButton(
               child: Text('Sign up', style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
-              style: ElevatedButton.styleFrom(backgroundColor: const Color.fromARGB(255, 219, 154, 231),), 
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green,), 
               onPressed: () {
                
                 if (_formKey.currentState!.validate()) {

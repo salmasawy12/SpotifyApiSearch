@@ -16,7 +16,7 @@ class _homePageState extends State<homepage> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: const Color.fromARGB(255, 219, 154, 231),
+        backgroundColor: Colors.green,
         title: Text('Fetch',
         style: TextStyle(
           fontSize: 28,
@@ -27,7 +27,7 @@ class _homePageState extends State<homepage> {
       ),
        bottomNavigationBar: BottomAppBar(
         height: 70,
-        color: const Color.fromARGB(255, 219, 154, 231),
+        color:  Colors.green,
       ),
       
 
@@ -42,14 +42,14 @@ class _homePageState extends State<homepage> {
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
-                color:  Color.fromARGB(255, 197, 100, 214),
+                color:  Colors.green,
               ),
               ),
 
              SizedBox(height: 50), 
              ElevatedButton(
               child: Text('Sign up',style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
-              style: ElevatedButton.styleFrom(backgroundColor:const Color.fromARGB(255, 219, 154, 231) ),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green ),
                 onPressed: () {
                   Navigator.push(
                     context,

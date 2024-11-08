@@ -94,12 +94,12 @@ Future<void> getArtistAndTopTracks(String Songname) async{
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Spotify Song Search', style: TextStyle(color: Colors.white),),
-          backgroundColor: const Color.fromARGB(255, 219, 154, 231),
+          backgroundColor: Colors.green,
           
       ),
        bottomNavigationBar: BottomAppBar(
         height: 70,
-        color: const Color.fromARGB(255, 219, 154, 231),
+        color:  Colors.green,
       ),
 
       body: Padding(
@@ -117,7 +117,7 @@ Future<void> getArtistAndTopTracks(String Songname) async{
             ),
             SizedBox(height: 20),
            ElevatedButton(child: Text('Search',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
-           style: ElevatedButton.styleFrom(backgroundColor: const Color.fromARGB(255, 219, 154, 231),),  onPressed: () {
+           style: ElevatedButton.styleFrom(backgroundColor:  Colors.green,),  onPressed: () {
                 if (controller.text.isNotEmpty) {
                   getArtistAndTopTracks(controller.text);
                 }

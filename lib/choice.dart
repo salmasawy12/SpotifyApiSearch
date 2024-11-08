@@ -17,11 +17,11 @@ class _choiceState extends State<choice> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 219, 154, 231),
+        backgroundColor: Colors.green,
       ),
        bottomNavigationBar: BottomAppBar(
         height: 70,
-        color: const Color.fromARGB(255, 219, 154, 231),
+        color:  Colors.green,
       ),
 
       body: Center(

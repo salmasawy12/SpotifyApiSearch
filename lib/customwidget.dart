@@ -23,7 +23,7 @@ class customwidget extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             textStyle: TextStyle(fontSize: 18),
-            backgroundColor: const Color.fromARGB(255, 219, 154, 231),
+            backgroundColor:  Colors.green,
           ),
         ),
         ElevatedButton(
@@ -36,7 +36,7 @@ class customwidget extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             textStyle: TextStyle(fontSize: 18),
-            backgroundColor: const Color.fromARGB(255, 219, 154, 231),
+            backgroundColor:  Colors.green,
           ),
         ),
       ],
